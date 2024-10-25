@@ -1,5 +1,5 @@
 # FileRenamer
-File renamer made in C, pretty much purpose-built for pirating music 
+File renamer (but I maybe actually make it) made in C, pretty much purpose-built for pirating music 
 
 Tool is made for Windows because file explorer sucks and CMD is even worse.\
 Making it for myself so it's probably really unsafe when it comes to backing up your file-name data.\
