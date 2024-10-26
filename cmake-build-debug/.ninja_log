@@ -1,0 +1,27 @@
+# ninja log v6
+37	210	7516750913276461	CMakeFiles/FileRenamer.dir/option/option.c.obj	1e89ec9e4ec567f3
+4	253	7516750913139904	CMakeFiles/FileRenamer.dir/main.c.obj	fd97429490d6aa18
+47	256	7516750913376488	CMakeFiles/FileRenamer.dir/opener/opener.c.obj	beac6e36906e3731
+42	262	7516750913326474	CMakeFiles/FileRenamer.dir/sort/sort.c.obj	6b5dfe3e389ed724
+263	857	7516750915536994	FileRenamer.exe	59edf95e827a61b6
+94	2394	7516753042279888	CMakeFiles/FileRenamer.dir/opener/opener.c.obj	beac6e36906e3731
+2395	5489	7516753065286899	FileRenamer.exe	59edf95e827a61b6
+7	182	7516753263299800	CMakeFiles/FileRenamer.dir/opener/opener.c.obj	beac6e36906e3731
+183	388	7516753265060066	FileRenamer.exe	59edf95e827a61b6
+7	650	7516753470992362	CMakeFiles/FileRenamer.dir/opener/opener.c.obj	beac6e36906e3731
+650	1199	7516753477424663	FileRenamer.exe	59edf95e827a61b6
+268	1069	7516754116516973	CMakeFiles/FileRenamer.dir/opener/opener.c.obj	beac6e36906e3731
+193	1070	7516754115756794	CMakeFiles/FileRenamer.dir/main.c.obj	fd97429490d6aa18
+1070	1604	7516754124539164	FileRenamer.exe	59edf95e827a61b6
+8	181	7516754434237211	CMakeFiles/FileRenamer.dir/opener/opener.c.obj	beac6e36906e3731
+181	379	7516754435977602	FileRenamer.exe	59edf95e827a61b6
+15	191	7516754987800330	CMakeFiles/FileRenamer.dir/opener/opener.c.obj	beac6e36906e3731
+192	395	7516754989564188	FileRenamer.exe	59edf95e827a61b6
+7	184	7516755625769801	CMakeFiles/FileRenamer.dir/opener/opener.c.obj	beac6e36906e3731
+184	390	7516755627540604	FileRenamer.exe	59edf95e827a61b6
+38	677	7516756908449252	CMakeFiles/FileRenamer.dir/opener/opener.c.obj	beac6e36906e3731
+678	1233	7516756914856661	FileRenamer.exe	59edf95e827a61b6
+39	810	7516761107205049	CMakeFiles/FileRenamer.dir/opener/opener.c.obj	beac6e36906e3731
+811	1550	7516761114923123	FileRenamer.exe	59edf95e827a61b6
+8	180	7516761241442491	CMakeFiles/FileRenamer.dir/opener/opener.c.obj	beac6e36906e3731
+181	395	7516761243183061	FileRenamer.exe	59edf95e827a61b6

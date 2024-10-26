@@ -2,7 +2,7 @@
 #include <string.h>
 
 void display_Opener_Text() {
-  FILE *OpenerTextFile = fopen("opener/opener.txt", "r");
+  FILE *OpenerTextFile = fopen("opener\\opener.txt", "r");
 
   if (OpenerTextFile == NULL) {
 

@@ -7,9 +7,6 @@ int main(int argc, char *argv[]){
 
     display_Opener_Text();
 
-
-    
-    
     getchar();
     system("pause"); //Flashback na nedine katabaze posto izgleda da CMD samo umre ako ne stavim ova 2 (uzeto iz proslog)
     return EXIT_SUCCESS;
