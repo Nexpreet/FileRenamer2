@@ -3,6 +3,7 @@
 #include <stdbool.h>
 #include <dirent.h>
 #include <errno.h>
+#include <string.h>
 
 DIR* Open_Folder(char *PATH_TO_FOLDER){
     
@@ -47,12 +48,13 @@ char **List_Files(char *PATH_TO_FOLDER){
 }
 
 
-bool Compare(const void *a, const void *b) {
-    
+int Compare(const void *a, const void *b) {
+
         return strcmp(*(const char **)a, *(const char **)b);
  }
 
 int File_Count(char **FILES_IN_FOLDER) {
+
         int count = 0;
         while (FILES_IN_FOLDER[count] != NULL) {
             count++;
@@ -65,11 +67,5 @@ void Sort_Alpha(char *PATH_TO_FOLDER){
     char **FILES_IN_FOLDER;
     FILES_IN_FOLDER = List_Files(PATH_TO_FOLDER);
 
-
-
-    qsort(FILES_IN_FOLDER, file_count(FILES_IN_FOLDER), sizeof(char *), Compare);
-
-    for (int i = 0; FILES_IN_FOLDER[i] != NULL; i++) {
-        printf("%s\n", FILES_IN_FOLDER[i]);
-    }
+    qsort(FILES_IN_FOLDER, File_Count(FILES_IN_FOLDER), sizeof(char *), Compare);
 }
